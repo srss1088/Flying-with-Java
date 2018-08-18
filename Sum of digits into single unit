@@ -1,0 +1,25 @@
+package myfirstproject.java;
+
+public class Calculator {
+	
+
+	public static void main(String[] args) {
+        int a=95,b=0,c=0,d=0;
+        while(a>0)
+        {
+        	int r=a%10;
+        	b=b+r;
+        	a = a/10;}
+        	
+        	while(b>0){
+        		int s=b%10;
+        		c=c+s;
+        		b = b/10;
+        	}
+        	while(c>0){
+        		int t=c%10;
+        		d=d+t;
+        		c = c/10;
+        	}
+        	System.out.println(d);
+        }
