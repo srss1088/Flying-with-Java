@@ -1,0 +1,22 @@
+public class Sumofstrings 
+{
+	public static void main(String[] args) 
+	{
+		String s="nice";
+		char  [] c =s.toCharArray();
+		int len=c.length;
+		int b=96;
+		int sum=0;
+	
+		for(int i=0;i<len;i++)
+		{
+			int k=c[i]-b;
+	   
+			if(k>0)
+	   
+				sum=sum+k;
+		}
+	System.out.print(sum);	
+			
+		}
+	}
